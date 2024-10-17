@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <section>
+        <div class="cartBackCover">
+            <div class="sideCart row">
+                <div class="col-3 bestSellers">
+                    <h3 class="bestTitle">Bestsellers: </h3>
+                    <div class="bestsellersList container">
+
+                        <div>
+                            <div class="chairCard" id="chair2">
+                                <img src="./img/chair2.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Knox Accent Chair, Natal Print</h6>
+                                    <p class="cardPrice"> 399 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="chairCard" id="chair4">
+                                <img src="./img/chair4.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                    <p class="cardPrice">370 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="chairCard" id="chair5">
+                                <img src="./img/chair5.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Stanley Accent Chair, Chestnut Brown</h6>
+                                    <p class="cardPrice">280 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="chairCard" id="chair2">
+                                <img src="./img/chair2.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Knox Accent Chair, Natal Print</h6>
+                                    <p class="cardPrice"> 399 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="chairCard" id="chair4">
+                                <img src="./img/chair4.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                    <p class="cardPrice">370 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="chairCard" id="chair5">
+                                <img src="./img/chair5.jpg" alt="" class="w-100">
+                                <div>
+                                    <p class="cardNote">GUARXU</p>
+                                    <h6 class="cardTitle">Stanley Accent Chair, Chestnut Brown</h6>
+                                    <p class="cardPrice">280 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="buttonBox">
+                        <span class="shoppingIcon" tabindex="0">Shopping bag</span>
+                        <span class="recentlyIcon" tabindex="0">recently viewed</span>
+                        <button class="cartButtonClose" onclick="openCart()">X</button>
+                        <div class="page1">
+                            <div class="shoppingBag">
+                                <h5 class="shoppingHead">Free Shipping!</h5>
+                            </div>
+                            <div class="recentlyViewed"></div>
+                            <!-- product in cart -->
+                            <div class="productInCart container">
+
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair2">
+                                        <img src="./img/chair2.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Knox Accent Chair, Natal Print</h6>
+                                        <p class="cardCartardPrice"> 399 EGP</p>
+                                    </div>
+
+                                </div>
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair4">
+                                        <img src="./img/chair4.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                        <p class="cardCartardPrice">370 EGP</p>
+                                    </div>
+                                </div>
+
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair5">
+                                        <img src="./img/chair5.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Stanley Accent Chair, Chestnut Brown</h6>
+                                        <p class="cardCartardPrice">280 EGP</p>
+                                    </div>
+                                </div>
+
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair2">
+                                        <img src="./img/chair2.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Knox Accent Chair, Natal Print</h6>
+                                        <p class="cardCartardPrice">399 EGP</p>
+                                    </div>
+                                </div>
+
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair4">
+                                        <img src="./img/chair4.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                        <p class="cardCartardPrice">370 EGP</p>
+                                    </div>
+                                </div>
+
+                                <div class="row cartCard">
+                                    <div class="chairCard col-4" id="chair5">
+                                        <img src="./img/chair5.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="cardTitleInCart">Stanley Accent Chair, Chestnut Brown</h6>
+                                        <p class="cardCartardPrice">280 EGP</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- suggestions -->
+                            <div>
+                                <p> you may also like...</p>
+                            </div>
+                            <div class="carouselBox">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row cartCard carouselCard">
+                                                <div class="chairCard col-4" id="chair2">
+                                                    <img src="./img/chair2.jpg" alt="" class="w-100 carouselCard">
+                                                </div>
+                                                <div class="col-8">
+                                                    <h6 class="cardTitleInCart">Knox Accent Chair, Natal Print</h6>
+                                                    <p class="cardCartardPrice">399 EGP</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row cartCard carouselCard">
+                                                <div class="chairCard col-4" id="chair5">
+                                                    <img src="./img/chair5.jpg" alt="" class="w-100 carouselCard">
+                                                </div>
+                                                <div class="col-8">
+                                                    <h6 class="cardTitleInCart">Stanley Accent Chair, Chestnut Brown
+                                                    </h6>
+                                                    <p class="cardCartardPrice">280 EGP</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row cartCard carouselCard">
+                                                <div class="chairCard col-4" id="chair5">
+                                                    <img src="./img/chair5.jpg" alt="" class="w-100 carouselCard">
+                                                </div>
+                                                <div class="col-8">
+                                                    <h6 class="cardTitleInCart">Stanley Accent Chair, Chestnut Brown
+                                                    </h6>
+                                                    <p class="cardCartardPrice">280 EGP</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="totalDiv">
+                                <p class="pricetitle">suptotal: <span class="cartTotalPrice"> EGP</span></p>
+                                <a href="#">Have a Coupon?</a>
+                                <div class="d-flex justify-content-around align-items-center mt-1">
+                                    <button class="viewButton">View Cart</button>
+                                    <button class="checkButton">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page2 pt-3">
+
+                            <div class="line row">
+                                <div class="col-6">
+                                    <img src="./img/chair5.jpg" alt="" class="chairImg">
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Stanley Accent Chair, Chestnut Brown</h6>
+                                        <p><span class="price mx-1">280 EGP </span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./img/chair4.jpg" alt="" class="chairImg">
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                        <p><span class="price">370 EGP</span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line row">
+                                <div class="col-6">
+                                    <div>
+                                        <img src="./img/chair1.jpg" alt="" class="chairImg">
+                                    </div>
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Herman Arm Chair, Finch Grey Cotton</h6>
+                                        <p><span class="price">199 EGP</span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <img src="./img/chair2.jpg" alt="" class="chairImg">
+                                    </div>
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Knox Accent Chair, Natal Print</h6>
+                                        <p><span class="price"> 399 EGP</span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line row">
+                                <div class="col-6">
+                                    <div>
+                                        <img src="./img/chair3.jpg" alt="" class="chairImg">
+                                    </div>
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Osmond Armchair, Ink Blue Velvet</h6>
+                                        <p><span class="price">280 EGP</span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <img src="./img/chair4.jpg" alt="" class="chairImg">
+                                    </div>
+                                    <div>
+                                        <p>GUARXU</p>
+                                        <h6>Set of 2 Lule Dining Chairs, Royal Yellow</h6>
+                                        <p><span class="price">370 EGP</span> <span class="info"><a href="#"
+                                                    class="text-decoration-none gText text-uppercase">ADD TO CART</a> <a
+                                                    href="#"
+                                                    class="text-decoration-none gText text-uppercase">QUICKVIEW</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <button class="cartButton" onclick="openCart()">Cart</button>
+        </div>
+    </section>
+
+
+
+    <script src="./CSS/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
